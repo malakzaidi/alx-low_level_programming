@@ -1,9 +1,12 @@
 
-#include<stdio.h>
+
+#include <stdio.h>
 
 /**
 
- * main - Entry point
+ * main - 4-puts.c
+
+ * description - Write a C program that prints exactly
 
  *
 
