@@ -1,10 +1,9 @@
 #include <stdio.h>
-
 /**
- * main - Causes an infinite loop.
- *
- * Return: Always 0.
- */
+* main - Causes an infinite loop.
+*
+* Return: Always 0.
+*/
 int main(void)
 {
 int i;
