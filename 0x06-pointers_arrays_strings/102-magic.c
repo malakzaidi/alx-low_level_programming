@@ -1,21 +1,18 @@
 #include <stdio.h>
-
 /**
-* main - prints a[2] = 98 using pointer arithmetic
+* main - Entry point
 *
-* Return: always 0
+* Return: Always 0 (Success)
 */
 int main(void)
 {
 int n;
+int a[5];
 int *p;
-
+a[2] = 1024;
 p = &n;
-
-*(p + 5) = 98; /* this assigns 98 to a[2] */
-
-printf("a[2] = %d\n", *(p + 7));
-
+*(p + 5) = 98; /* Write a value to the 6th integer after p */
+printf("a[2] = %d\n", *(a + 2)); /* Print the value of a[2] */
 return (0);
-}
+}}
 
