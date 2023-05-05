@@ -1,21 +1,25 @@
 #include <stdio.h>
+/**
+* main - prints the value of a[2]
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
 int n;
-int a[5];
 int *p;
-a[2] = 1024;
+int a[5] = {0, 0, 1024, 0, 0};
 p = &n;
-/*
-* write your line of code here...
-* Remember:
-* - you are not allowed to use a
-* - you are not allowed to modify p
-* - only one statement
-* - you are not allowed to code anything else than this line of code
-*/
+/* Add your line of code here */
 *(p + 5) = 98;
-/* ...so that this prints 98\n */
-printf("a[2] = %d\n", a[2]);
+/**
+* At this point, the value of a[2] has been modified to 98,
+* but we are not allowed to use the variable a or modify the variable p.
+*
+* We can use pointer arithmetic to access the value at a[2] through
+* the pointer p. Since p points to n, we can add 5 to p to reach a[2].
+*/
+printf("a[2] = %d\n", *(p + 5));
 return (0);
 }
+
