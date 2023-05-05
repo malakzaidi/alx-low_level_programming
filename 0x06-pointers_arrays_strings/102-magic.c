@@ -14,5 +14,5 @@ p = &n;
 *(p + 5) = 98; /* Write a value to the 6th integer after p */
 printf("a[2] = %d\n", *(a + 2)); /* Print the value of a[2] */
 return (0);
-}}
-
+}
+}
